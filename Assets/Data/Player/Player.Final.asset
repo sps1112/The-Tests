@@ -1,0 +1,34 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 380ba5e6a50337744ae0bab4ba31db4b, type: 3}
+  m_Name: Player.Final
+  m_EditorClassIdentifier: 
+  objectName: Player
+  health: 250
+  attack: 35
+  defence: 30
+  immunityPeriod: 1.75
+  hurtShakeFactor: 1.25
+  attackRate: 0.25
+  moveSpeed: 8.5
+  jumpForce: 18.5
+  groundDetectRange: 1.25
+  jumpTimeLag: 0.075
+  gravityMultiplier: 1.75
+  dashForce: 17.5
+  dashTimePeriod: 0.3
+  impactForce: 15
+  dashColor: {r: 0.45662528, g: 0, b: 0.745283, a: 1}
+  dashMat: {fileID: 2100000, guid: 214cf64401a2ac84a82f6a426d245de5, type: 2}
+  wallDetectRange: 3.5
+  hurtTimePeriod: 0.2
+  canDashInAir: 1
