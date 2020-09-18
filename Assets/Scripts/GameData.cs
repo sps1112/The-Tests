@@ -1,4 +1,4 @@
-﻿using System.Collections;
+using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
@@ -33,5 +33,11 @@ public class GameData : MonoBehaviour
         {
             Destroy(this.gameObject);
         }
+    }
+
+    public static void Reset()
+    {
+        hasData = false;
+        keyList = new List<KeyGateType>();
     }
 }
